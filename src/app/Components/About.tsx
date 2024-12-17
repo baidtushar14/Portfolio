@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client';
 import React, { useState, useTransition } from 'react'
 import AboutImage from '../../../public/images/HeroImage.png'
@@ -43,7 +44,6 @@ const Tab_data = [
 
 export default function About() {
     const [tab, setTab] = useState('skills');
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [isPending, startTrans] = useTransition();
     const handleTabChange = (id: React.SetStateAction<string>) => {
         startTrans(() => {

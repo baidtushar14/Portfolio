@@ -14,8 +14,8 @@ interface AnimatedNumbersProps {
     };
 }
 
-const AnimatedNumbers = dynamic<AnimatedNumbersProps>(
-    () => import("react-animated-numbers"),
+const AnimatedNumbers = dynamic<AnimatedNumbersProps>(() =>
+    import('react-animated-numbers').then(mod => mod.default as React.ComponentType<AnimatedNumbersProps>),
     { ssr: false }
 );
 

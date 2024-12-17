@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useRef, useState } from 'react';
 import Linkedin from '../../../public/images/linkedin.png';
 import Github from '../../../public/images/github-sign.png';
