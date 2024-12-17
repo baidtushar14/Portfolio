@@ -52,8 +52,8 @@ export default function About() {
     }
 
     return (
-        <section className='text-white xl:min-h-[100vh] my-auto px-12 flex justify-center items-center flex-col md:mb-8' >
-            <h2 className='text-transparent mb-4 text-4xl sm:text-5xl lg:text-6xl text-center font-extrabold items-center justify-center bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600'>About Me</h2>
+        <section className='text-white xl:min-h-[100vh] my-auto px-12 flex justify-center items-center flex-col md:mb-8 ' >
+            <h2 className='text-transparent mb-4 md:mt-28 text-4xl sm:text-5xl lg:text-6xl text-center font-extrabold items-center justify-center bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600'>About Me</h2>
             <div className=' flex flex-col md:flex-row gap-8 xl:gap-16  justify-center items-center py-4'>
                 <div className='rounded-full flex items-center bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
                     <Image src={AboutImage} alt='Hero Image'

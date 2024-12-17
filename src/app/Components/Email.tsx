@@ -37,7 +37,7 @@ export default function EmailComponent() {
     };
 
     return (
-        <div className='flex flex-col md:flex-row xl:min-h-screen px-12 items-center w-full justify-evenly md:justify-around md:mt-12 mt-8' id='contact'>
+        <div className='flex flex-col md:flex-row xl:min-h-screen px-12 items-center w-full justify-evenly md:justify-around md:mt-12 mt-8 mb-8' id='contact'>
             <div style={{ background: 'radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(167,77,244,1) 100%)' }}></div>
             <div className='w-[90%] md:w-[60%]'>
                 <h5 className='text-2xl font-bold text-white my-2 md:text-4xl'>Let&apos;s Connect</h5>
