@@ -50,7 +50,7 @@ export default function Home() {
       <div className="">
         <HeroSection />
         <AchievementsSection />
-        <div id="about" className="mt-12">
+        <div className="">
           <About />
         </div>
         <div id="project" className="flex justify-center pt-[4%]">
