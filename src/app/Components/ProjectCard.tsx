@@ -36,8 +36,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ imgUrl, title, descrip
                     </Link>
                 </div>
             </div>
-            <div className="flex flex-col py-2 text-white rounded-b-xl bg-[#171717] justify-center items-center w-[300px] md:w-[300px] xl:w-[400px] px-2">
-                <h5 className="text-xl font-semibold mb-2 border-b border-blue-50">{title}</h5>
+            <div className="flex flex-col py-2 text-white rounded-b-xl bg-[#171717] justify-center items-centerw-[300px] md:w-[400px] xl:w-[400px] px-2">
+                <h5 className="text-xl font-semibold mb-2 border-b border-blue-50 md:text-center">{title}</h5>
                 <p className="text-[#ADB7BE] mb-2">{description}</p>
             </div>
         </div>

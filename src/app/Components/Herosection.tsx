@@ -41,7 +41,7 @@ export default function HeroSection() {
                             <Link href={'#contact'} className='px-1 py-3 md:mt-4 md:px-5 rounded-full md:mr-4 bg-white hover:bg-slate-200 text-white w-full sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-gradient-to-tl'><span className='px-20 md:px-5 py-2 md:py-4'>
                                 Hire me
                             </span></Link>
-                            <Link href="./Fantastic Five.pdf" download='CV'
+                            <Link href="./Tushar.pdf" download='CV'
                                 className='px-1 py-3 rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-gradient-to-tl text-white mt-5 w-full sm:w-fit'
                             >
                                 <span className='md:bg-[#121212] rounded-full px-16 md:px-5 py-2 md:py-2'>
